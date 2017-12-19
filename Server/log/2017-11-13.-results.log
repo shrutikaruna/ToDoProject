@@ -1,0 +1,9 @@
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-13T21:58:20.154Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-13T21:58:20.327Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-11-13T21:58:20.949Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-13T22:03:24.751Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-13T22:03:24.797Z"}
+{"level":"info","message":"HTTP Server listening on port:4000, in test mode","timestamp":"2017-11-13T22:03:24.885Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-13T22:07:09.211Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-13T22:07:09.252Z"}
+{"level":"info","message":"HTTP Server listening on port:4000, in test mode","timestamp":"2017-11-13T22:07:09.346Z"}

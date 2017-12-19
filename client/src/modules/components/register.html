@@ -1,0 +1,98 @@
+<!-- <template>
+        <label for="user.firstName">First Name:</label>  
+         <input value.bind="user.firstName">
+         <br>
+        <label for="user.lastName">Last Name:</label>
+         <input value.bind="user.lastName">
+        <br>
+        <label for="user.email">Email:</label>
+         <input value.bind="user.email">
+            Password: <input value.bind="user.password">
+        <br>
+       <button click.trigger="save()">Save</button>
+    </template>
+     -->
+<template>
+   <form >
+            <div item-width="60%">
+                    <span><i click.trigger="back()" class="fa fa-arrow-left fa-lg fa-4x" aria-hidden="true"></i></span>
+                <h1 style="font-family: palatino;color:rgb(28, 24, 43); text-align:center;"><b><i> Register </i></b></h1>    
+                       
+            </div>   
+    <table align="center" width="40%" top="50%" left="50%" >
+    <tr><td>&nbsp;</td></tr>    
+        <tr>
+            <td width="5%">&nbsp;</td>
+            <td>            
+                    <label for="user.firstName"><b><i>First Name: </i></b></label>
+            </td>
+            <td width="5%">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+                    <td>
+                        <input value.bind="user.firstName" class="form-control" required>
+                    </td>
+        </tr>
+        <tr><td>&nbsp;</td></tr>    
+        <tr>
+                <td>&nbsp;</td>
+                <td>
+                        <label for="user.lastName"><b><i>Last Name:</i></b></label>
+                    </td>
+                    <td>&nbsp;</td>                
+                </tr>
+                <tr>
+                        <td>&nbsp;</td>
+                        <td>                
+                         <input value.bind="user.lastName" class="form-control" required>
+                    </td>
+        </tr>
+        <tr><td>&nbsp;</td></tr>    
+        <tr>
+                <td>&nbsp;</td>
+                <td>
+                        <label for="user.email"><b><i>Email:</i></b></label>
+                    </td>
+    
+                    <td>&nbsp;</td>
+        </tr>
+        <tr>
+                        <td>&nbsp;</td>
+                        <td>                                    
+                         <input value.bind="user.email" class="form-control" required>                   
+                </td>
+                <td>&nbsp;</td>            
+        </tr>
+        <tr><td>&nbsp;</td></tr>
+        <tr>
+                <td>&nbsp;</td>
+                <td>      <label><b><i>Password:</i></b></label>
+                    </td>
+                    <td>&nbsp;</td>                
+                </tr>
+        <tr>
+                        <td>&nbsp;</td>  
+                        <td>                                    
+                        <input value.bind="user.password" class="form-control" required>
+        </td>
+        <td>&nbsp;</td>
+        </tr>
+    <tr><td>&nbsp;</td></tr>
+        <tr>
+                <td>&nbsp;</td>
+                <td align="center">
+                         <button click.trigger="save()" 
+                        style="font-family:Merienda;border-radius:6px;width:160px;height:40px;border:2px solid;">Save</button>
+                        
+                        <!-- <input action="action" onclick="window.history.go(-1); return false;" type="button" value="Back" style="font-family:Merienda;border-radius:6px;width:160px;height:40px;border:2px solid;" /> -->
+                        
+                 </td>
+                 <td>&nbsp;</td>
+        </tr>            
+        <tr><td>&nbsp;</td></tr>    
+    </table>
+    
+    </form>               
+                </template>
+                

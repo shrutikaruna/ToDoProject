@@ -1,0 +1,15 @@
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-07T17:32:33.618Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-07T17:32:33.643Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-11-07T17:32:33.660Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-07T17:33:27.637Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-07T17:33:27.672Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-11-07T17:33:27.687Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-07T17:33:27.850Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-07T17:38:17.336Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-07T17:38:17.408Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-11-07T17:38:17.423Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-07T17:38:17.455Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-07T17:40:04.054Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-07T17:40:04.130Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-11-07T17:40:04.232Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-07T17:40:04.256Z"}

@@ -1,0 +1,21 @@
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-14T22:03:12.723Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-14T22:03:15.661Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-12-14T22:03:15.681Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-14T22:03:15.726Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-14T22:06:03.421Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-14T22:06:04.093Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-14T22:06:04.094Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-14T22:18:07.528Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-14T22:18:07.927Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-12-14T22:18:07.948Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-14T22:18:07.985Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-14T22:18:25.763Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-14T22:18:25.766Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-14T22:36:24.861Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-14T22:36:25.338Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-12-14T22:36:25.358Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-14T22:36:25.408Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-14T22:37:11.814Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-14T22:37:11.817Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-14T22:37:17.686Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-14T22:37:17.688Z"}

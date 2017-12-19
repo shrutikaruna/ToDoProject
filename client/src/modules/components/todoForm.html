@@ -1,0 +1,69 @@
+<template>
+    <form>
+             <div item-width="60%">
+            <span><i click.trigger="back()" class="fa fa-arrow-left fa-lg fa-4x" 	aria-hidden="true"></i></span>
+            <h1 style="font-family: palatino;color:rgb(28, 24, 43); text-align:center;"><b><i> Add Things To Do </i></b></h1>    
+                         
+             </div>
+   <table align="center" width="60%">  
+            <div class="form-group topMargin">
+              <label for="todoInput"><b>Todo*:</b></label>
+              <input value.bind="todoObj.todo" type="text" class="form-control" id="todoInput" aria-describedby="todoHelp" 
+                placeholder="Enter ToDo">
+              <small id="todoHelp" class="form-text text-muted">
+                </small>
+        </div>
+        <div class="form-group">
+            <label for="descriptionInput"><b>Description:</b></label>
+            <textarea value.bind="todoObj.description" type="text" class="form-control" 
+            id="descriptionInput" aria-describedby="descriptionHelp" 
+            placeholder="Enter Description"></textarea>
+            <small id="descriptionHelp" class="form-text text-muted">
+            </small>
+        </div>
+
+<div class="form-group">
+                    <label for="priorityInput"><b>Priority:</b></label>
+                    <select value.bind="todoObj.priority" class="form-control" 
+                id="exampleFormControlSelect2">
+                        <option repeat.for="priority of priorities" value.bind="priority">
+                ${priority}</option>
+                    </select>
+                    <small id="priorityHelp" class="form-text text-muted">How urgent is this?</small>
+                </div>      
+                <div class="form-group">
+                    <label for="dueDateInput"><b>Due Date*:</b></label>
+                    <flat-picker value.bind="todoObj.datedue"></flat-picker> 
+                    <small id="dueDateHelp" class="form-text text-muted">The date to ToDo is due.</small>
+                        </div>  
+        <div class="row">
+                <div class="col">
+                        <label class="btn btn-primary">
+                                Browse for files&hellip; <input type="file" 
+                                style="display: none;" 
+                                change.delegate="changeFiles()" files.bind="files">
+                        </label>
+                        <small id="fileHelp" class="form-text text-muted">Upload Files</small>
+                    </div>	
+        
+                    <br>
+                            <div class="col-8">
+                                <ul>
+                                    <li repeat.for="file of filesToUpload" class="list-group-item">
+                                        ${file.name}<span click.delegate="removeFile($index)" 
+                                        class="pull-right"><i class="fa fa-trash" aria-hidden="true">
+                                        </i></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br>
+                        <button click.trigger="saveTodo()" class="btn btn-primary topMargin">Save</button>
+                  
+            </div>
+        </div>
+    </div>
+    </table>
+    </form>
+
+            </template>
+        

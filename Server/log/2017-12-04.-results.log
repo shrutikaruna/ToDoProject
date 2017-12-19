@@ -1,0 +1,122 @@
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-04T00:37:07.090Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-04T00:37:07.420Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-12-04T00:37:07.438Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-04T00:37:07.470Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-04T00:39:17.967Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-04T00:39:18.290Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-12-04T00:39:18.304Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-04T00:39:18.329Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:39:33.374Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a24688f30bd2948c4088c11","timestamp":"2017-12-04T00:39:33.377Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:39:35.713Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a246a1fd3150a668408855d","timestamp":"2017-12-04T00:39:35.714Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:39:39.115Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a246a9ad5896b29342c0d8e","timestamp":"2017-12-04T00:39:39.116Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:39:40.270Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a246eeec8eb3c923499e615","timestamp":"2017-12-04T00:39:40.271Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:39:41.034Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a246f719924294320d51514","timestamp":"2017-12-04T00:39:41.035Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:39:41.750Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a2470289924294320d51515","timestamp":"2017-12-04T00:39:41.752Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:39:42.409Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a2470e42aa4b688c0947765","timestamp":"2017-12-04T00:39:42.411Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:39:42.975Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a247151cd3ff72a8053c426","timestamp":"2017-12-04T00:39:42.976Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:39:43.643Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a2472168783449b583b4932","timestamp":"2017-12-04T00:39:43.644Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:39:44.217Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a24726aceaab89c6cc23d28","timestamp":"2017-12-04T00:39:44.218Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:39:44.856Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a2472de63cf4779e44c6285","timestamp":"2017-12-04T00:39:44.858Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:40:06.646Z"}
+{"level":"verbose","message":"Create a ToDo","timestamp":"2017-12-04T00:40:06.690Z"}
+{"level":"error","message":"ValidationError: description: Path `description` is required.\n    at MongooseError.ValidationError (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\error\\validation.js:28:11)\n    at model.Document.invalidate (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\document.js:1658:32)\n    at C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\document.js:1530:17\n    at validate (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\schematype.js:779:7)\n    at C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\schematype.js:824:11\n    at Array.forEach (native)\n    at SchemaString.SchemaType.doValidate (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\schematype.js:784:19)\n    at C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\document.js:1528:9\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)\n    at process._tickCallback (internal/process/next_tick.js:104:9)\nFrom previous event:\n    at model.wrappedPointCut [as save] (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\services\\model\\applyHooks.js:131:23)\n    at C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\app\\controllers\\todos.js:54:14\n    at Layer.handle [as handle_request] (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at urlencodedParser (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\body-parser\\lib\\types\\urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\index.js:317:13)","timestamp":"2017-12-04T00:40:06.749Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:40:06.786Z"}
+{"level":"verbose","message":"Upload file for todo undefined and 5a245a94ce0d508acc3c1853","timestamp":"2017-12-04T00:40:06.819Z"}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"todos\"\n    at MongooseError.CastError (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\error\\cast.js:27:11)\n    at ObjectId.cast (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\schema\\objectid.js:158:13)\n    at ObjectId.SchemaType._castForQuery (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\schematype.js:1083:15)\n    at ObjectId.castForQuery (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\schema\\objectid.js:198:15)\n    at ObjectId.SchemaType.castForQueryWrapper (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\schematype.js:1040:15)\n    at cast (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\cast.js:269:32)\n    at Query.cast (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\query.js:3252:12)\n    at Query._castConditions (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\query.js:1247:10)\n    at Query._findOne (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\query.js:1454:8)\n    at C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\kareem\\index.js:250:8\n    at C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\kareem\\index.js:23:7\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)\n    at process._tickCallback (internal/process/next_tick.js:104:9)","timestamp":"2017-12-04T00:40:06.873Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:40:26.210Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoidundefined","timestamp":"2017-12-04T00:40:26.213Z"}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"undefined\" at path \"_id\" for model \"todos\"\n    at MongooseError.CastError (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\error\\cast.js:27:11)\n    at ObjectId.cast (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\schema\\objectid.js:158:13)\n    at ObjectId.SchemaType._castForQuery (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\schematype.js:1083:15)\n    at ObjectId.castForQuery (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\schema\\objectid.js:198:15)\n    at ObjectId.SchemaType.castForQueryWrapper (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\schematype.js:1040:15)\n    at cast (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\cast.js:269:32)\n    at Query.cast (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\query.js:3252:12)\n    at Query.remove (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\query.js:1791:10)\n    at Function.remove (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\mongoose\\lib\\model.js:1212:13)\n    at C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\app\\controllers\\todos.js:78:14\n    at Layer.handle [as handle_request] (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (C:\\SHRUTI\\UWM\\FALL-2017\\810- Web Development\\Development\\Shruti\\ToDo\\server3\\node_modules\\express\\lib\\router\\index.js:354:14)","timestamp":"2017-12-04T00:40:26.250Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:40:41.176Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a24737232edbe73c41d9ef9","timestamp":"2017-12-04T00:40:41.177Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:41:01.525Z"}
+{"level":"verbose","message":"Create a ToDo","timestamp":"2017-12-04T00:41:01.527Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:41:01.590Z"}
+{"level":"verbose","message":"Upload file for todo 5a24999de4c62880d08a88f2 and 5a245a94ce0d508acc3c1853","timestamp":"2017-12-04T00:41:01.599Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T00:41:28.531Z"}
+{"level":"verbose","message":"Update Todo with id ToDoid5a24999de4c62880d08a88f2","timestamp":"2017-12-04T00:41:28.533Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T01:04:48.099Z"}
+{"level":"verbose","message":"Create a ToDo","timestamp":"2017-12-04T01:04:48.100Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T01:04:48.141Z"}
+{"level":"verbose","message":"Upload file for todo 5a249f30e4c62880d08a88f3 and 5a245a94ce0d508acc3c1853","timestamp":"2017-12-04T01:04:48.250Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T01:08:40.926Z"}
+{"level":"verbose","message":"Create a ToDo","timestamp":"2017-12-04T01:08:40.928Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T01:08:40.966Z"}
+{"level":"verbose","message":"Upload file for todo 5a24a018e4c62880d08a88f4 and 5a245a94ce0d508acc3c1853","timestamp":"2017-12-04T01:08:41.178Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-04T01:18:30.845Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-04T01:18:31.200Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-12-04T01:18:31.216Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-04T01:18:31.252Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T01:19:05.346Z"}
+{"level":"verbose","message":"Create a ToDo","timestamp":"2017-12-04T01:19:05.451Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T01:19:05.523Z"}
+{"level":"verbose","message":"Upload file for todo 5a24a2894b920c30b89f6539 and 5a245a94ce0d508acc3c1853","timestamp":"2017-12-04T01:19:05.582Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T01:19:22.025Z"}
+{"level":"verbose","message":"Update Todo with id ToDoid5a24a2894b920c30b89f6539","timestamp":"2017-12-04T01:19:22.027Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-04T01:22:45.561Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-04T01:22:45.910Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-12-04T01:22:45.929Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-04T01:22:45.973Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-04T01:50:12.477Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-04T01:50:13.174Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-12-04T01:50:13.248Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-04T01:50:13.311Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-04T01:52:02.233Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-04T01:52:02.551Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-12-04T01:52:02.565Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-04T01:52:02.589Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-04T01:52:19.569Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-04T01:52:19.886Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-12-04T01:52:19.901Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-04T01:52:19.933Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-04T23:30:21.323Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-04T23:30:21.757Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-12-04T23:30:21.772Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-04T23:38:45.603Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-04T23:38:45.985Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-12-04T23:38:46.000Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-04T23:38:46.034Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:40:18.063Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:40:18.413Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-04T23:40:18.415Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:40:49.487Z"}
+{"level":"verbose","message":"Create a ToDo","timestamp":"2017-12-04T23:40:49.488Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:40:49.599Z"}
+{"level":"verbose","message":"Upload file for todo 5a25dd01f317f244081573fd and 5a245a94ce0d508acc3c1853","timestamp":"2017-12-04T23:40:49.648Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:41:20.309Z"}
+{"level":"verbose","message":"Update Todo with id ToDoid5a25dd01f317f244081573fd","timestamp":"2017-12-04T23:41:20.311Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:43:28.800Z"}
+{"level":"verbose","message":"Create a ToDo","timestamp":"2017-12-04T23:43:28.805Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:43:28.844Z"}
+{"level":"verbose","message":"Upload file for todo 5a25dda0f317f244081573fe and 5a245a94ce0d508acc3c1853","timestamp":"2017-12-04T23:43:28.871Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:46:13.643Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-04T23:46:13.644Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:48:10.052Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-04T23:48:10.053Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:48:32.067Z"}
+{"level":"verbose","message":"Create a ToDo","timestamp":"2017-12-04T23:48:32.071Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:48:32.116Z"}
+{"level":"verbose","message":"Upload file for todo 5a25ded0f317f244081573ff and 5a245a94ce0d508acc3c1853","timestamp":"2017-12-04T23:48:32.129Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:49:17.690Z"}
+{"level":"verbose","message":"Create a ToDo","timestamp":"2017-12-04T23:49:17.692Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:49:17.728Z"}
+{"level":"verbose","message":"Upload file for todo 5a25defdf317f24408157400 and 5a245a94ce0d508acc3c1853","timestamp":"2017-12-04T23:49:17.741Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:52:15.428Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-04T23:52:15.429Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:54:31.881Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-04T23:54:31.892Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-04T23:54:32.676Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-04T23:56:23.079Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-04T23:56:23.724Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-12-04T23:56:23.748Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-04T23:56:23.787Z"}

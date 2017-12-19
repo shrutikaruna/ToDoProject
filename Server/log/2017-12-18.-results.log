@@ -1,0 +1,20 @@
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-18T11:15:47.903Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-18T11:15:50.196Z"}
+{"level":"info","message":"HTTP Server listening on port:5000, in development mode","timestamp":"2017-12-18T11:15:50.217Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-18T11:15:50.277Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-18T11:18:51.342Z"}
+{"level":"verbose","message":"Create user","timestamp":"2017-12-18T11:18:51.381Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-18T11:19:09.291Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-18T11:19:09.553Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-18T11:19:09.559Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-18T11:19:31.495Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a25fb8a007ca94c8c2c5865","timestamp":"2017-12-18T11:19:31.500Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-18T11:19:32.420Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a25fbc4007ca94c8c2c5866","timestamp":"2017-12-18T11:19:32.421Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-18T11:19:33.129Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a25fc67007ca94c8c2c5867","timestamp":"2017-12-18T11:19:33.130Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-18T11:19:34.850Z"}
+{"level":"verbose","message":"Delete ToDo with id ToDoid5a27025db69e4c5c1c8ea792","timestamp":"2017-12-18T11:19:34.851Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-18T17:44:13.448Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-18T17:44:13.718Z"}
+{"level":"verbose","message":"Get ToDos for a user","timestamp":"2017-12-18T17:44:13.720Z"}

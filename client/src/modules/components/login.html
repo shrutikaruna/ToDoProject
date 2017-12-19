@@ -1,0 +1,52 @@
+    
+ <template>
+        <script src="http://code.angularjs.org/snapshot/angular.js"></script>
+    <!--table class="table table-bordered" bgcolor="#00FF00"-->
+    <h1 style="font-family: times new roman;color:rgb(7, 8, 8);" ><left><b><i>Login</i></b></center></h1> 
+    <br>
+    <br>
+    <table align="left" width="40%" 
+    style="border-radius: 8px; 
+    height: 300px;
+    vertical-align: middle;
+    background-color: rgb(179, 197, 159);
+    top:50%;
+    left:50%;">
+    <div id="errorMsg" innerhtml.bind="loginError"></div>
+    <tr><td colspan="3">&nbsp;</td></tr>
+    <tr>
+            <td width="5%">&nbsp;</td>
+            <td>
+        <div class="input-group input-group-lg">
+        <div class="input-group-addon"><span class="fa fa-lg fa-envelope"/></div>
+        
+    <input value.bind="email" type="email" autofocus class="form-control" id="email" required placeholder="Email">
+</input>
+</td>
+<td width="5%">&nbsp;</td>
+</tr>
+<tr>
+        <td>&nbsp;</td>
+    <td>
+           <div class="input-group input-group-lg">
+            <div class="input-group-addon"><span class="fa fa-lg fa-key"/></div>
+            <input value.bind="password" type="password" class="form-control" id="password" required placeholder="Password"></input>
+           </div>
+    </td>
+    <td >&nbsp;</td>
+</tr>  
+<tr>
+    <td colspan="3">&nbsp;</td>
+</tr>     
+<tr>
+    <td colspan="3" align="center" >
+    <button click.trigger="login()" style="font-family:Merienda;border-radius:6px;width:160px;height:40px;border:solid 2px;font-size:15px" >
+     <b><i>Login</i></b></button> &nbsp;&nbsp;
+    <button click.trigger="showRegister()" style="font-family:Merienda;border-radius:6px;width:160px;height:40px;border:2px solid;" >
+            <b><i>Register</i></b></button>
+    </td>
+</tr>
+<tr><td colspan="3">&nbsp;</td></tr>
+</table>
+
+ </template>
